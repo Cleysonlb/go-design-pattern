@@ -3,9 +3,10 @@ package singleton
 /*
 Singleton
 
-O padrão de design criacional de Singleton restringe a instanciação de um tipo para um único objeto.
-Garanta que uma classe tenha apenas uma instância e forneça um ponto de acesso global a ela.
-Encapsulado "inicialização just-in-time" ou "inicialização no primeiro uso".
+O Singleton é um padrão de projeto criacional que permite a você
+garantir que uma classe tenha apenas uma instância, enquanto provê
+um ponto de acesso global para essa instância.
+Referencia: https://refactoring.guru/pt-br/design-patterns/singleton
 */
 type singleton struct {
 	Name string
